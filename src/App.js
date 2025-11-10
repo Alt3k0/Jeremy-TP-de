@@ -1,7 +1,6 @@
 import React, { Suspense, useState, useEffect } from 'react'
 import { Canvas } from '@react-three/fiber'
 import Dice3D from './components/Dice3D.js'
-import AnimatedDiceValue from './components/AnimatedDiceValue.js'
 import { rollDie } from './utils/dice.js'
 import './App.css'
 import PieChartStats from './components/PieCharts.js'
